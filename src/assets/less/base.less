@@ -1,0 +1,124 @@
+@r:100rem;
+[v-cloak]{
+  display:none
+}
+a{
+  font-size: 0.34rem;
+  color: #999;
+}
+.my-active{
+  color: #ffd200;
+}
+.home_video{
+  width: 100%;
+  position: relative;
+  img{
+    width: 4.28rem;
+    height: 2.4rem;
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+  }
+  .home_v{
+    position: absolute;
+    left: 0.17rem;
+    top:1.75rem;
+    width: 7.16rem;
+    height: 4.68rem;
+    background-color: #000;
+    video{
+      height: 4.0rem!important;
+      width: 7.16rem!important;
+      margin-top:0.34rem!important;
+    }
+  }
+}
+.home_img{
+  position: relative;
+  margin-top: 4.1rem;
+  button{
+    width: 3.84rem;
+    height: 0.52rem;
+    background-color: yellow;
+    position: absolute;
+    top: 6rem;
+    left: 1.84rem;
+    border:none;
+    border-radius: 0.26rem;
+    font-size: 0.34rem;
+    line-height: 0.52rem;
+    animation: big 2s linear infinite;
+  }
+  @keyframes big{
+    0%{transform: scale(1)}
+    50%{transform: scale(1.1)}
+    100%{transform: scale(1)}
+  }
+}
+.top {
+  width: 100%;
+  height: 0.8rem;
+  position: fixed;
+  top: 8rem;
+  z-index: 999;
+  img {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 6.4rem;
+  }
+}
+.tab_cont{
+  ul {
+    li {
+      img {
+        width: 100%;
+        height: 3.7rem;
+      }
+    }
+  }
+  .head{
+    position: relative;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .head_pic{
+      position: absolute;
+      width: 1.18rem;
+      height: 1.18rem;
+      top:1.18rem;
+      left:2.6rem;
+      z-index: 20;
+    }
+    .head_ul{
+      position: absolute;
+      left: 1.18rem;
+      top: 1.18rem;
+      width: 5.8rem;
+      height: 1.18rem;
+      li{
+        width: 1.18rem;
+        height: 1.18rem;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 0.6rem;
+        font-weight: bold;
+        line-height: 1.18rem;
+        text-align: center;
+        float: left;
+        margin-right: 0.24rem;
+      }
+      li:nth-of-type(2){
+        background: none;
+      }
+    }
+  }
+}
+.active{
+  color: #fcac30;
+}
+.mytoast{
+  font-size: 0.5rem!important;
+  color: #fff!important;
+  border-radius: 0.3rem!important;
+  width: 2rem!important;
+}
